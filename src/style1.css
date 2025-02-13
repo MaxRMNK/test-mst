@@ -640,7 +640,7 @@ html {
   }
   .active__card:first-child {
     display: block;
-    background-image: url('./images/building002.png');
+    background-image: url('./images/building002.jpg');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center left;
@@ -718,7 +718,7 @@ html {
   }
   .active__card:last-child {
     display: block;
-    background-image: url('./images/building003.png');
+    background-image: url('./images/building003.jpg');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center right;
