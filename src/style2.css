@@ -10,9 +10,6 @@ html {
   background: rgba(0, 0, 0, 1);
   color: #fff;
   width: 100%;
-  min-width: 320px;
-  /* max-width: 1920px; */
-  /* margin: 0 auto; */
 }
 
 .main {
@@ -23,8 +20,6 @@ html {
 .video {
   position: absolute;
   inset: 0;
-  /* top: 0;
-  left: 0; */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -33,7 +28,7 @@ html {
 
 .overlay {
   position: relative;
-  z-index: 9999;
+  z-index: 5;
   width: 100%;
   border: 1rem solid rgba(0, 0, 0, 1);
   box-sizing: border-box;
@@ -55,13 +50,14 @@ html {
 
 .overlay__text {
   display: inline-block;
-  margin: 0;
   color: white;
   background-color: rgba(0, 0, 0, 1);
   font-weight: 900;
-  /* font-size: calc(100vw / 10); */
   /* Формула Майка Ритмюллера: https://baradusov.ru/posts/2018/math-and-frontend */
-  font-size: calc(30.8px + (((100vw - 320px) / (767 - 320))) * (78 - 30.8));
+  font-size: calc(29px + (((100vw - 310px) / (777 - 310))) * (78 - 29));
+
+  /* font-size: calc(30.8px + (((100vw - 320px) / (767 - 320))) * (78 - 30.8)); */
+  /* font-size: calc(100vw / 10); */
 }
 
 .overlay__text_space {
@@ -80,7 +76,7 @@ html {
 
 
 
-/* Для десктопа */
+/* Десктоп */
 @media (min-width: 768px) {
   .overlay_mobile {
     display: none;
@@ -91,9 +87,10 @@ html {
   }
 
   .overlay__text {
-    font-size: calc(100vw / 16);
+    /* font-size: calc(100vw / 16); */
+    font-size: 6.5vw;
     /* Здесь не использую формулу Майка Ритмюллера т.к. не знаю предела размера экрана и
-     нет необходимости четко вписать строку в минимальные рамки */
+     нет необходимости вписывать строку в минимальные рамки */
     /* font-size: calc(48px + (((100vw - 768px) / (1920 - 768))) * (120 - 48)); */
   }
 
