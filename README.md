@@ -60,7 +60,6 @@ https://maxrmnk.github.io/test-mst/
 
 
 
-
 <!--
 Тестовое задание для "MST": https://hh.ru/vacancy/116080090
 на вакансию: https://perm.hh.ru/vacancy/116080090

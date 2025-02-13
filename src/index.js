@@ -1,6 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function () {
-// });
-
 const page = document.querySelector('.page');
 
 const header = page.querySelector(".header");

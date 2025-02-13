@@ -32,6 +32,7 @@ html {
   border-radius: 0.165rem;
   outline: none;
   cursor: pointer;
+  user-select: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
@@ -81,6 +82,7 @@ html {
   font-family: 'Prata';
   font-size: 1.5rem;
   order: 2;
+  user-select: none;
 }
 
 
@@ -89,6 +91,7 @@ html {
 .burger-checkbox {
   position: absolute;
   visibility: hidden;
+  user-select: none;
 }
 .burger {
   position: relative;
@@ -135,13 +138,14 @@ html {
 
 
 .header__menu {
+  position: absolute;
   top: 0;
   left: 0;
   height: 100vh;
   width: 200px;
   max-width: 50vw;
-  position: absolute;
   padding: 70px 0;
+  user-select: none;
   background-color: rgba(65, 65, 67, 1);
   transform: translateX(-100%);
   transition: .3s;
@@ -389,6 +393,10 @@ html {
     color: rgba(85, 86, 90, 0.7);
   }
 
+  .input:focus {
+    border: 1px solid rgba(85, 86, 90, 1);
+  }
+
 .checkbox {
   margin-bottom: 1.08rem;
   display: flex;
@@ -512,6 +520,7 @@ html {
   font-family: 'Prata';
   font-size: 2.5rem;
   text-wrap: nowrap;
+  user-select: none;
 }
 
 .footer-bottom__button {
@@ -677,7 +686,6 @@ html {
   .burger,
   .burger::before,
   .burger::after {
-    /* visibility: hidden; */
     display: none;
   }
 

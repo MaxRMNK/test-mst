@@ -50,6 +50,7 @@ html {
 
 .overlay__text {
   display: inline-block;
+  user-select: none;
   color: white;
   background-color: rgba(0, 0, 0, 1);
   font-weight: 900;

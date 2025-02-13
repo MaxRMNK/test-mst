@@ -46,13 +46,14 @@ html {
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #ff4e27;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: all 0.1s ease-in-out;
+  user-select: none;
 }
 
 .link:hover {
-  background-color: #0056b3;
+  background-color: #d92700;
 }
 
 .link:active {
