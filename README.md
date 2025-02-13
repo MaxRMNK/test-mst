@@ -11,7 +11,7 @@
 Часть 1
 
 <div align="center" >
-  <a href="https://maxrmnk.github.io/test-mst/src/images/MST.png" target="_blank"><img src="https://maxrmnk.github.io/test-mst/src/images/MST-preview.jpg" alt="" width="400"></a>
+  <img src="https://maxrmnk.github.io/test-mst/src/images/MST-preview.jpg" alt="" width="400" target="_blank">
 </div>
 
 Часть 2
